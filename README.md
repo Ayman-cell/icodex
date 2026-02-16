@@ -5,7 +5,6 @@
 <div align="center">
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
-[![Cerebras](https://img.shields.io/badge/Cerebras-Llama%203.1-8B-orange?style=for-the-badge)](https://www.cerebras.ai/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)](https://github.com)
 
