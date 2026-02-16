@@ -1,0 +1,12 @@
+Step,Description,Command :
+
+1-Extract text from PDF :
+python pdf_to_text.py your_document.pdf
+2-Generate chunks from text :
+python text_to_chunks.py -i your_document_extracted.txt
+3-Create the course structure :
+python chunks_to_structure.py -i your_document_extracted_chunks.json
+4-Generate the quiz questions :
+python structure_to_questions.py -i your_document_extracted_chunks_structure.json
+5-Convert quiz to PDF :
+python quiz_to_pdf.py -i hibernate_extracted_chunks_structure_quiz.json

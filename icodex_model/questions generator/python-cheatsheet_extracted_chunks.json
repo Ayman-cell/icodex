@@ -1,0 +1,95 @@
+{
+  "total_chunks": 15,
+  "chunks": [
+    {
+      "id": 1,
+      "text": "--- Page 1 ---\nReal Python\nPocket Reference\nVisit realpython.com to\nturbocharge your\nPython learning with\nin-depth tutorials,\nreal-world examples,\nand expert guidance.\nGetting Started\nFollow these guides to kickstart your Python journey:\nrealpython.com/what-can-i-do-with-python\nrealpython.com/installing-python\nrealpython.com/python-first-steps\nStart the Interactive Shell\n$ python\nQuit the Interactive Shell\n>>> exit()\nRun a Script\n$ python my_script.py\nRun a Script in Interactive Mode\n$ python -i my_script.py\nLearn More on realpython.com/search:\ninterpreter ∙ run a script ∙ command line\nComments\nAlways add a space after the #\nUse comments to explain “why” of your code\nWrite Comments\n# This is a comment\n# print(\"This code will not run.\")\nprint(\"This will run.\")  # Comments are ignored by Python\nLearn More on realpython.com/search:\ncomment ∙ documentation",
+      "char_count": 864,
+      "word_count": 121
+    },
+    {
+      "id": 2,
+      "text": "--- Page 2 ---\nData Types\nPython is dynamically typed\nUse None to represent missing or optional values\nUse type() to check object type\nCheck for a specific type with isinstance()\nissubclass() checks if a class is a subclass\nType Investigation\ntype( 4 2)                # <class 'int'>\ntype( 3 . 1 4)              # <class 'float'>\ntype(\"Hello\")           # <class 'str'>\ntype(True)              # <class 'bool'>\ntype(None)              # <class 'NoneType'>\nisinstance( 3 . 1 4, float)  # True\nissubclass(int, object)  # True - everything inherits from object\nType Conversion\nint(\"42\")                # 42\nfloat(\"3.14\")            # 3.14\nstr( 4 2)                  # \"42\"\nbool( 1)                  # True\nlist(\"abc\")              # [\"a\", \"b\", \"c\"]\nLearn More on realpython.com/search:\ndata types ∙ type checking ∙ isinstance ∙ issubclass",
+      "char_count": 836,
+      "word_count": 119
+    },
+    {
+      "id": 3,
+      "text": "--- Page 3 ---\nVariables & Assignment\nVariables are created when first assigned\nUse descriptive variable names\nFollow snake_case convention\nBasic Assignment\nname = \"Leo\"           # String\nage = 7                # Integer\nheight = 5 . 6           # Float\nis_cat = True          # Boolean\nflaws = None           # None type\nParallel & C hained Assignments\nx, y = 1 0, 2 0          # Assign multiple values\na = b = c = 0          # Give same value to multiple variables\nAugmented Assignments\ncounter += 1\nnumbers += [ 4, 5]\npermissions |= write\nLearn More on realpython.com/search:\nvariables ∙ assignment operator ∙ walrus operator",
+      "char_count": 629,
+      "word_count": 104
+    },
+    {
+      "id": 4,
+      "text": "--- Page 4 ---\nStrings\nIt’s recommended to use double-quotes for strings\nUse \"\\n\" to create a line break in a string\nTo write a backslash in a normal string, write \"\\\\\"\nCreating Strings\nsingle = 'Hello'\ndouble = \"World\"\nmulti = \"\"\"Multiple\nline string\"\"\"\nString Operations\ngreeting = \"me\" + \"ow!\"  # \"meow!\"\nrepeat = \"Meow!\" * 3     # \"Meow!Meow!Meow!\"\nlength = len(\"Python\")   # 6\nString Methods\n\"a\".upper()                     # \"A\"\n\"A\".lower()                     # \"a\"\n\" a \".strip()                   # \"a\"\n\"abc\".replace(\"bc\", \"ha\")       # \"aha\"\n\"a b\".split()                   # [\"a\", \"b\"]\n\"-\".join([\"a\", \"b\"])            # \"a-b\"\nString Indexing & S licing\ntext = \"Python\"\ntext[ 0]      # \"P\" (first)\ntext[- 1]     # \"n\" (last)\ntext[ 1: 4]    # \"yth\" (slice)\ntext[: 3]     # \"Pyt\" (from start)\ntext[ 3:]     # \"hon\" (to end)\ntext[:: 2]    # \"Pto\" (every 2nd)\ntext[::- 1]   # \"nohtyP\" (reverse)\nString Formatting\n# f-strings\nname = \"Aubrey\"\nage = 2\nf\"Hello, {name}!\"               # \"Hello, Aubrey!\"\nf\"{name} is {age} years old\"    # \"Aubrey is 2 years old\"\nf\"Debug: {age=}\"                # \"Debug: age=2\"\n# Format method\ntemplate = \"Hello, {name}! You're {age}.\"\ntemplate.format(name=\"Aubrey\", age= 2)    # \"Hello, Aubrey! You're 2.\"\nRaw Strings\n# Normal string with an escaped tab\n\"This is:\\tCool.\"       # \"This is:    Cool.\"\n# Raw string with escape sequences\nr\"This is:\\tCool.\"      # \"This is:\\tCool.\"\nLearn More on realpython.com/search:\nstrings ∙ string methods ∙ slice notation ∙ raw strings",
+      "char_count": 1506,
+      "word_count": 227
+    },
+    {
+      "id": 5,
+      "text": "--- Page 5 ---\nNumbers & Math\nArithmetic Operators\n1 0 + 3    # 13\n1 0 - 3    # 7\n1 0 * 3    # 30\n1 0 / 3    # 3.3333333333333335\n1 0 // 3   # 3\n1 0 % 3    # 1\n2 ** 3    # 8\nUseful Functions\nabs(- 5)              # 5\nround( 3 . 7)           # 4\nround( 3 . 1 4 1 5 9, 2)    # 3.14\nmin( 3, 1, 2)         # 1\nmax( 3, 1, 2)         # 3\nsum([ 1, 2, 3])       # 6\nLearn More on realpython.com/search:\nmath ∙ operators ∙ built in functions",
+      "char_count": 432,
+      "word_count": 102
+    },
+    {
+      "id": 6,
+      "text": "--- Page 6 ---\nConditionals\nPython uses indentation for code blocks\nUse 4 spaces per indentation level\nIf-Elif-Else\nif age < 1 3:\n    category = \"child\"\nelif age < 2 0:\n    category = \"teenager\"\nelse:\n    category = \"adult\"\nComparison Operators\nx == y    # Equal to\nx != y    # Not equal to\nx < y     # Less than\nx <= y    # Less than or equal\nx > y     # Greater than\nx >= y    # Greater than or equal\nLogical Operators\nif age >= 1 8 and has_car:\n    print(\"Roadtrip!\")\nif is_weekend or is_holiday:\n    print(\"No work today.\")\nif not is_raining:\n    print(\"You can go outside.\")\nLearn More on realpython.com/search:\nconditional statements ∙ operators ∙ truthy falsy",
+      "char_count": 666,
+      "word_count": 116
+    },
+    {
+      "id": 7,
+      "text": "--- Page 7 ---\nLoops\nrange(5) generates 0 through 4\nUse enumerate() to get index and value\nbreak exits the loop, continue skips to next\nBe careful with while to not create an infinite loop\nFor Loops\n# Loop through range\nfor i in range( 5):      # 0, 1, 2, 3, 4\n    print(i)\n# Loop through collection\nfruits = [\"apple\", \"banana\"]\nfor fruit in fruits:\n    print(fruit)\n# With enumerate for index\nfor i, fruit in enumerate(fruits):\n    print(f\"{i}: {fruit}\")\nWhile Loops\nwhile True:\n    user_input = input(\"Enter 'quit' to exit: \")\n    if user_input == \"quit\":\n        break\n    print(f\"You entered: {user_input}\")\nLoop Control\nfor i in range( 1 0):\n    if i == 3:\n        continue  # Skip this iteration\n    if i == 7:\n        break     # Exit loop\n    print(i)\nLearn More on realpython.com/search:\nfor loop ∙ while loop ∙ enumerate ∙ control flow",
+      "char_count": 845,
+      "word_count": 137
+    },
+    {
+      "id": 8,
+      "text": "--- Page 8 ---\nFunctions\nDefine functions with def\nAlways use () to call a function\nAdd return to send values back\nCreate anonymous functions with the lambda keyword\nDefining Functions\ndef greet():\n    return \"Hello!\"\ndef greet_person(name):\n    return f\"Hello, {name}!\"\ndef add(x, y= 1 0):    # Default parameter\n    return x + y\nCalling Functions\ngreet()                   # \"Hello!\"\ngreet_person(\"Bartosz\")   # \"Hello, Bartosz\"\nadd( 5, 3)                 # 8\nadd( 7)                    # 17\nReturn Values\ndef get_min_max(numbers):\n    return min(numbers), max(numbers)\nminimum, maximum = get_min_max([ 1, 5, 3])\nUseful Built-in Functions\ncallable()  # Checks if an object can be called as a function\ndir()       # Lists attributes and methods\nglobals()   # Get a dictionary of the current global symbol table\nhash()      # Get the hash value\nid()        # Get the unique identifier\nlocals()    # Get a dictionary of the current local symbol table\nrepr()      # Get a string representation for debugging\nLambda Functions\nsquare = lambda x: x** 2\nresult = square( 5)  # 25\n# With map and filter\nnumbers = [ 1, 2, 3, 4]\nsquared = list(map(lambda x: x** 2, numbers))\nevens = list(filter(lambda x: x % 2 == 0, numbers))\nLearn More on realpython.com/search:\ndefine functions ∙ return multiple values ∙ lambda",
+      "char_count": 1305,
+      "word_count": 202
+    },
+    {
+      "id": 9,
+      "text": "--- Page 9 ---\nClasses\nClasses are blueprints for objects\nYou can create multiple instances of one class\nYou commonly use classes to encapsulate data\nInside a class, you provide methods for interacting with the data\n.__init__() is the constructor method\nself refers to the instance\nDefining Classes\nclass Dog:\n    def __init__(self, name, age):\n        self.name = name\n        self.age = age\n    \n    def bark(self):\n        return f\"{self.name} says Woof!\"\n# Create instance\nmy_dog = Dog(\"Frieda\", 3)\nprint(my_dog.bark())  # Frieda says Woof!\nClass Attributes & M ethods\nclass Cat:\n    species = \"Felis catus\"   # Class attribute\n    \n    def __init__(self, name):\n        self.name = name      # Instance attribute\n    \n    def meow(self):\n        return f\"{self.name} says Meow!\"\n    \n    @classmethod\n    def create_kitten(cls, name):\n        return cls(f\"Baby {name}\")\nInheritance\nclass Animal:\n    def __init__(self, name):\n        self.name = name\n    \n    def speak(self):\n        pass\nclass Dog(Animal):\n    def speak(self):\n        return f\"{self.name} barks!\"\nLearn More on realpython.com/search:\nobject oriented programming ∙ classes",
+      "char_count": 1146,
+      "word_count": 142
+    },
+    {
+      "id": 10,
+      "text": "--- Page 10 ---\nExceptions\nWhen Python runs and encounters an error, it creates an exception\nUse specific exception types when possible\nelse runs if no exception occurred\nfinally always runs, even after errors\nTry-Except\ntry:\n    number = int(input(\"Enter a number: \"))\n    result = 1 0 / number\nexcept ValueError:\n    print(\"That's not a valid number!\")\nexcept ZeroDivisionError:\n    print(\"Cannot divide by zero!\")\nelse:\n    print(f\"Result: {result}\")\nfinally:\n    print(\"Calculation attempted\")\nCommon Exceptions\nValueError         # Invalid value\nTypeError          # Wrong type\nIndexError         # List index out of range\nKeyError           # Dict key not found\nFileNotFoundError  # File doesn't exist\nRaising Exceptions\ndef validate_age(age):\n    if age < 0:\n        raise ValueError(\"Age cannot be negative\")\n    return age\nLearn More on realpython.com/search:\nexceptions ∙ errors ∙ debugging",
+      "char_count": 900,
+      "word_count": 119
+    },
+    {
+      "id": 11,
+      "text": "--- Page 11 ---\nCollections\nA collection is any container data structure that stores multiple items\nIf an object is a collection, then you can loop through it\nStrings are collections, too\nUse len() to get the size of a collection\nYou can check if an item is in a collection with the in keyword\nSome collections may look similar, but each data structure solves specific\nneeds\nLists\n# Creating lists\nempty = []\nnums = [ 5]\nmixed = [ 1, \"two\", 3 . 0, True]\n# List methods\nnums.append(\"x\")         # Add to end\nnums.insert( 0, \"y\")      # Insert at index 0\nnums.extend([\"z\", 5])    # Extend with iterable\nnums.remove(\"x\")         # Remove first \"x\"\nlast = nums.pop()        # Pop returns last element\n# List indexing and checks\nfruits = [\"banana\", \"apple\", \"orange\"]\nfruits[ 0]                # \"banana\"\nfruits[- 1]               # \"orange\"\n\"apple\" in fruits        # True\nlen(fruits)              # 3\nTuples\n# Creating tuples\npoint = ( 3, 4)\nsingle = ( 1,)    # Note the comma!\nempty = ()\n# Basic tuple unpacking\npoint = ( 3, 4)\nx, y = point \nx                # 3\ny                # 4\n# Extended unpacking\nfirst, *rest = ( 1, 2, 3, 4) \nfirst            # 1\nrest             # [2, 3, 4]\n Continue your learning journey and become a Python expert at realpython.com/start-here",
+      "char_count": 1270,
+      "word_count": 217
+    },
+    {
+      "id": 12,
+      "text": "--- Page 12 ---\nSets\n# Creating Sets\na = { 1, 2, 3}\nb = set([ 3, 4, 4, 5])\n# Set Operations\na | b            # {1, 2, 3, 4, 5}\na & b            # {3}\na - b            # {1, 2}\na ^ b            # {1, 2, 4, 5}\nDictionaries\n# Creating Dictionaries\nempty = {}\npet = {\"name\": \"Leo\", \"age\": 4 2}\n# Dictionary Operations\npet[\"sound\"] = \"Purr!\"   # Add key and value\npet[\"age\"] = 7           # Update value\nage = pet.get(\"age\", 0)  # Get with default\ndel pet[\"sound\"]         # Delete key\npet.pop(\"age\")           # Remove and return\n# Dictionary Methods\npet = {\"name\": \"Frieda\", \"sound\": \"Bark!\"}\npet.keys()         # dict_keys(['name', 'sound'])\npet.values()       # dict_values(['Frieda', 'Bark!'])\npet.items()        # dict_items([('name', 'Frieda'), ('sound', 'Bark!')])\nLearn More on realpython.com/search:\nlist ∙ tuple ∙ set ∙ dictionary ∙ indexing ∙ unpacking",
+      "char_count": 859,
+      "word_count": 139
+    },
+    {
+      "id": 13,
+      "text": "--- Page 13 ---\nComprehensions\nYou can think of comprehensions as condensed for loops\nComprehensions are faster than equivalent loops\nList Comprehensions\n# Basic\nsquares = [x** 2 for x in range( 1 0)]\n# With condition\nevens = [x for x in range( 2 0) if x % 2 == 0]\n# Nested\nmatrix = [[i*j for j in range( 3)] for i in range( 3)]\nOther Comprehensions\n# Dictionary comprehension\nword_lengths = {word: len(word) for word in [\"hello\", \"world\"]}\n# Set comprehension\nunique_lengths = {len(word) for word in [\"who\", \"what\", \"why\"]}\n# Generator expression\nsum_squares = sum(x** 2 for x in range( 1 0 0 0))\nLearn More on realpython.com/search:\ncomprehensions ∙ data structures ∙ generators",
+      "char_count": 680,
+      "word_count": 118
+    },
+    {
+      "id": 14,
+      "text": "--- Page 14 ---\nFile I/O\nFile Operations\n# Read an entire file\nwith open(\"file.txt\", mode=\"r\", encoding=\"utf-8\") as file:\n    content = file.read()\n# Read a file line by line\nwith open(\"file.txt\", mode=\"r\", encoding=\"utf-8\") as file:\n    for line in file:\n        print(line.strip())\n# Write a file\nwith open(\"output.txt\", mode=\"w\", encoding=\"utf-8\") as file:\n    file.write(\"Hello, World!\\n\")\n# Append to a File\nwith open(\"log.txt\", mode=\"a\", encoding=\"utf-8\") as file:\n    file.write(\"New log entry\\n\")\nLearn More on realpython.com/search:\nfiles ∙ context manager ∙ pathlib",
+      "char_count": 575,
+      "word_count": 76
+    },
+    {
+      "id": 15,
+      "text": "--- Page 15 ---\nImports & Modules\nPrefer explicit imports over import *\nUse aliases for long module names\nGroup imports: standard library, third-party libraries, user-defined modules\nImport Styles\n# Import entire module\nimport math\nresult = math.sqrt( 1 6)\n# Import specific function\nfrom math import sqrt\nresult = sqrt( 1 6)\n# Import with alias\nimport numpy as np\narray = np.array([ 1, 2, 3])\n# Import all (not recommended)\nfrom math import *\nPackage Imports\n# Import from package\nimport package.module\nfrom package import module\nfrom package.subpackage import module\n# Import specific items\nfrom package.module import function, Class\nfrom package.module import name as alias\nLearn More on realpython.com/search:\nimport ∙ modules",
+      "char_count": 730,
+      "word_count": 114
+    }
+  ]
+}

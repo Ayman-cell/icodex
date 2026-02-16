@@ -1,0 +1,492 @@
+{
+  "course": {
+    "title": "Real Python Pocket Reference",
+    "description": "A comprehensive guide to Python programming",
+    "modules": [
+      {
+        "title": "Getting Started",
+        "description": "Introduction to Python programming",
+        "mini_modules": [
+          {
+            "title": "Interactive Shell",
+            "description": "Using the interactive shell to run Python code",
+            "concepts": [
+              {
+                "title": "Starting the Interactive Shell",
+                "description": "How to start the interactive shell"
+              },
+              {
+                "title": "Quitting the Interactive Shell",
+                "description": "How to quit the interactive shell"
+              },
+              {
+                "title": "Running a Script",
+                "description": "How to run a Python script"
+              }
+            ]
+          },
+          {
+            "title": "Comments",
+            "description": "Using comments in Python code",
+            "concepts": [
+              {
+                "title": "Adding Comments",
+                "description": "How to add comments to Python code"
+              },
+              {
+                "title": "Using Comments",
+                "description": "How to use comments to explain code"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Data Types",
+        "description": "Introduction to Python data types",
+        "mini_modules": [
+          {
+            "title": "Basic Data Types",
+            "description": "Introduction to basic data types in Python",
+            "concepts": [
+              {
+                "title": "Integers",
+                "description": "How to use integers in Python"
+              },
+              {
+                "title": "Floats",
+                "description": "How to use floats in Python"
+              },
+              {
+                "title": "Strings",
+                "description": "How to use strings in Python"
+              }
+            ]
+          },
+          {
+            "title": "Type Investigation",
+            "description": "How to investigate the type of a variable",
+            "concepts": [
+              {
+                "title": "Using the type() Function",
+                "description": "How to use the type() function to investigate the type of a variable"
+              },
+              {
+                "title": "Using the isinstance() Function",
+                "description": "How to use the isinstance() function to check if a variable is of a certain type"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Variables & Assignment",
+        "description": "Introduction to variables and assignment in Python",
+        "mini_modules": [
+          {
+            "title": "Basic Assignment",
+            "description": "How to assign values to variables in Python",
+            "concepts": [
+              {
+                "title": "Assigning Values",
+                "description": "How to assign values to variables in Python"
+              },
+              {
+                "title": "Using Descriptive Variable Names",
+                "description": "Why it's a good idea to use descriptive variable names"
+              }
+            ]
+          },
+          {
+            "title": "Parallel & Chained Assignments",
+            "description": "How to use parallel and chained assignments in Python",
+            "concepts": [
+              {
+                "title": "Using Parallel Assignments",
+                "description": "How to use parallel assignments to assign multiple values to multiple variables"
+              },
+              {
+                "title": "Using Chained Assignments",
+                "description": "How to use chained assignments to assign the same value to multiple variables"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Strings",
+        "description": "Introduction to strings in Python",
+        "mini_modules": [
+          {
+            "title": "Creating Strings",
+            "description": "How to create strings in Python",
+            "concepts": [
+              {
+                "title": "Using Single Quotes",
+                "description": "How to use single quotes to create strings"
+              },
+              {
+                "title": "Using Double Quotes",
+                "description": "How to use double quotes to create strings"
+              }
+            ]
+          },
+          {
+            "title": "String Operations",
+            "description": "How to perform operations on strings in Python",
+            "concepts": [
+              {
+                "title": "Concatenating Strings",
+                "description": "How to concatenate strings in Python"
+              },
+              {
+                "title": "Repeating Strings",
+                "description": "How to repeat strings in Python"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Numbers & Math",
+        "description": "Introduction to numbers and math in Python",
+        "mini_modules": [
+          {
+            "title": "Arithmetic Operators",
+            "description": "How to use arithmetic operators in Python",
+            "concepts": [
+              {
+                "title": "Using the + Operator",
+                "description": "How to use the + operator to add numbers"
+              },
+              {
+                "title": "Using the - Operator",
+                "description": "How to use the - operator to subtract numbers"
+              }
+            ]
+          },
+          {
+            "title": "Useful Functions",
+            "description": "How to use useful functions in Python",
+            "concepts": [
+              {
+                "title": "Using the abs() Function",
+                "description": "How to use the abs() function to get the absolute value of a number"
+              },
+              {
+                "title": "Using the round() Function",
+                "description": "How to use the round() function to round a number"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Conditionals",
+        "description": "Introduction to conditionals in Python",
+        "mini_modules": [
+          {
+            "title": "If-Elif-Else",
+            "description": "How to use if-elif-else statements in Python",
+            "concepts": [
+              {
+                "title": "Using the if Statement",
+                "description": "How to use the if statement to check a condition"
+              },
+              {
+                "title": "Using the elif Statement",
+                "description": "How to use the elif statement to check multiple conditions"
+              }
+            ]
+          },
+          {
+            "title": "Comparison Operators",
+            "description": "How to use comparison operators in Python",
+            "concepts": [
+              {
+                "title": "Using the == Operator",
+                "description": "How to use the == operator to check if two values are equal"
+              },
+              {
+                "title": "Using the != Operator",
+                "description": "How to use the != operator to check if two values are not equal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Loops",
+        "description": "Introduction to loops in Python",
+        "mini_modules": [
+          {
+            "title": "For Loops",
+            "description": "How to use for loops in Python",
+            "concepts": [
+              {
+                "title": "Using the for Loop",
+                "description": "How to use the for loop to iterate over a sequence"
+              },
+              {
+                "title": "Using the enumerate() Function",
+                "description": "How to use the enumerate() function to get both the index and value of each item in a sequence"
+              }
+            ]
+          },
+          {
+            "title": "While Loops",
+            "description": "How to use while loops in Python",
+            "concepts": [
+              {
+                "title": "Using the while Loop",
+                "description": "How to use the while loop to repeat a block of code while a condition is true"
+              },
+              {
+                "title": "Using the break Statement",
+                "description": "How to use the break statement to exit a loop"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Functions",
+        "description": "Introduction to functions in Python",
+        "mini_modules": [
+          {
+            "title": "Defining Functions",
+            "description": "How to define functions in Python",
+            "concepts": [
+              {
+                "title": "Using the def Statement",
+                "description": "How to use the def statement to define a function"
+              },
+              {
+                "title": "Using the return Statement",
+                "description": "How to use the return statement to return a value from a function"
+              }
+            ]
+          },
+          {
+            "title": "Calling Functions",
+            "description": "How to call functions in Python",
+            "concepts": [
+              {
+                "title": "Using the Function Name",
+                "description": "How to call a function by its name"
+              },
+              {
+                "title": "Using the Function Arguments",
+                "description": "How to pass arguments to a function"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Classes",
+        "description": "Introduction to classes in Python",
+        "mini_modules": [
+          {
+            "title": "Defining Classes",
+            "description": "How to define classes in Python",
+            "concepts": [
+              {
+                "title": "Using the class Statement",
+                "description": "How to use the class statement to define a class"
+              },
+              {
+                "title": "Using the __init__() Method",
+                "description": "How to use the __init__() method to initialize an object"
+              }
+            ]
+          },
+          {
+            "title": "Creating Objects",
+            "description": "How to create objects in Python",
+            "concepts": [
+              {
+                "title": "Using the class Name",
+                "description": "How to create an object by using the class name"
+              },
+              {
+                "title": "Using the __init__() Method",
+                "description": "How to use the __init__() method to initialize an object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Exceptions",
+        "description": "Introduction to exceptions in Python",
+        "mini_modules": [
+          {
+            "title": "Try-Except Blocks",
+            "description": "How to use try-except blocks in Python",
+            "concepts": [
+              {
+                "title": "Using the try Statement",
+                "description": "How to use the try statement to catch exceptions"
+              },
+              {
+                "title": "Using the except Statement",
+                "description": "How to use the except statement to handle exceptions"
+              }
+            ]
+          },
+          {
+            "title": "Raising Exceptions",
+            "description": "How to raise exceptions in Python",
+            "concepts": [
+              {
+                "title": "Using the raise Statement",
+                "description": "How to use the raise statement to raise an exception"
+              },
+              {
+                "title": "Using the ValueError Exception",
+                "description": "How to use the ValueError exception to raise an exception when a value is invalid"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Collections",
+        "description": "Introduction to collections in Python",
+        "mini_modules": [
+          {
+            "title": "Lists",
+            "description": "How to use lists in Python",
+            "concepts": [
+              {
+                "title": "Creating Lists",
+                "description": "How to create lists in Python"
+              },
+              {
+                "title": "Using List Methods",
+                "description": "How to use list methods to manipulate lists"
+              }
+            ]
+          },
+          {
+            "title": "Tuples",
+            "description": "How to use tuples in Python",
+            "concepts": [
+              {
+                "title": "Creating Tuples",
+                "description": "How to create tuples in Python"
+              },
+              {
+                "title": "Using Tuple Methods",
+                "description": "How to use tuple methods to manipulate tuples"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Comprehensions",
+        "description": "Introduction to comprehensions in Python",
+        "mini_modules": [
+          {
+            "title": "List Comprehensions",
+            "description": "How to use list comprehensions in Python",
+            "concepts": [
+              {
+                "title": "Basic List Comprehensions",
+                "description": "How to use basic list comprehensions to create lists"
+              },
+              {
+                "title": "Using List Comprehensions with Conditions",
+                "description": "How to use list comprehensions with conditions to create lists"
+              }
+            ]
+          },
+          {
+            "title": "Dictionary Comprehensions",
+            "description": "How to use dictionary comprehensions in Python",
+            "concepts": [
+              {
+                "title": "Basic Dictionary Comprehensions",
+                "description": "How to use basic dictionary comprehensions to create dictionaries"
+              },
+              {
+                "title": "Using Dictionary Comprehensions with Conditions",
+                "description": "How to use dictionary comprehensions with conditions to create dictionaries"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "File I/O",
+        "description": "Introduction to file I/O in Python",
+        "mini_modules": [
+          {
+            "title": "Reading Files",
+            "description": "How to read files in Python",
+            "concepts": [
+              {
+                "title": "Using the open() Function",
+                "description": "How to use the open() function to open a file"
+              },
+              {
+                "title": "Using the read() Method",
+                "description": "How to use the read() method to read a file"
+              }
+            ]
+          },
+          {
+            "title": "Writing Files",
+            "description": "How to write files in Python",
+            "concepts": [
+              {
+                "title": "Using the open() Function",
+                "description": "How to use the open() function to open a file"
+              },
+              {
+                "title": "Using the write() Method",
+                "description": "How to use the write() method to write to a file"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Imports & Modules",
+        "description": "Introduction to imports and modules in Python",
+        "mini_modules": [
+          {
+            "title": "Importing Modules",
+            "description": "How to import modules in Python",
+            "concepts": [
+              {
+                "title": "Using the import Statement",
+                "description": "How to use the import statement to import a module"
+              },
+              {
+                "title": "Using the from Statement",
+                "description": "How to use the from statement to import specific items from a module"
+              }
+            ]
+          },
+          {
+            "title": "Importing Specific Items",
+            "description": "How to import specific items from a module in Python",
+            "concepts": [
+              {
+                "title": "Using the import Statement",
+                "description": "How to use the import statement to import a module"
+              },
+              {
+                "title": "Using the from Statement",
+                "description": "How to use the from statement to import specific items from a module"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
