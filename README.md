@@ -721,7 +721,4 @@ Pour toute question ou problème :
 
 **[Commencer maintenant →](https://github.com/Ayman-cell/icodex_model#-guide-dutilisation)**
 
-**Dernière mise à jour** : 16 février 2026
-**Version** : 1.0.0
-
 </div>
